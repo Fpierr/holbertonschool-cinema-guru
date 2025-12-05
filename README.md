@@ -1,16 +1,51 @@
-# React + Vite
+# holbertonschool-cinema-guru
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Implemente app with react
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
 
-## React Compiler
+Hello everyone, In this project you will build our pocket movie app in which we will keep track of our favorite movies and set up a watch later list. You will use the ReactJs knowledge that you accumulated in previous projects to build the interface and show data from an API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#### Read or watch
 
-## Expanding the ESLint configuration
+- [Vite | docs](https://vite.dev/guide/)
+- [React Hooks](https://legacy.reactjs.org/docs/hooks-intro.html)
+- [React Font Awesome](https://docs.fontawesome.com/v5/web/use-with/react)
+- [React Router](https://reactrouter.com/)
+- [axios](https://github.com/axios/axios)
+- [ES6](https://www.w3schools.com/js/js_es6.asp)
+- [JWT Authentication](https://www.jwt.io/introduction)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Learning Objectives
+
+- Manage state and props in a react component
+- Use React hooks to achieve certain behavior
+- Implement a design with JSX and CSS (React)
+- Implement a frontend app with React
+
+### Requirements
+
+- Class components are not allowed
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- Try to use ES6 features
+
+### Setting up the backend
+
+- Installing `docker`
+  - This [link](https://docs.docker.com/engine/install/ubuntu/) has all the steps needed for installing docker depending on your system.
+- Installing `docker-compose`
+  - Official [documentation](https://docs.docker.com/compose/install/) for installing docker-compose
+- Make sure that docker is running before proceeding
+- Cloning and running the backend server
+    - Clone this [repository](https://github.com/hs-hq/holbertonschool-cinema-guru-API) on your local machine
+    - cd into the repository folder and run the following commands:
+        ```
+        docker-compose build --no-cache --force-rm
+        docker-compose up
+        ```
+      - After running the above command you should get an output similar to this indicating that the backend and db are running.
+
+
+## Author
+[Fqnuel PIERRE](https://github.com/fpierr)
