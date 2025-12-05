@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Hello everyone, In this project you will build our pocket movie app in which we will keep track of our favorite movies and set up a watch later list. You will use the ReactJs knowledge that you accumulated in previous projects to build the interface and show data from an API.
+Hello everyone, In this project I will build our pocket movie app in which we will keep track of our favorite movies and set up a watch later list. I will use the ReactJs knowledge that I accumulated in previous projects to build the interface and show data from an API.
 
 #### Read or watch
 
@@ -33,18 +33,18 @@ Hello everyone, In this project you will build our pocket movie app in which we 
 ### Setting up the backend
 
 - Installing `docker`
-  - This [link](https://docs.docker.com/engine/install/ubuntu/) has all the steps needed for installing docker depending on your system.
+  - This [link](https://docs.docker.com/engine/install/ubuntu/) has all the steps needed for installing docker depending on the system.
 - Installing `docker-compose`
   - Official [documentation](https://docs.docker.com/compose/install/) for installing docker-compose
 - Make sure that docker is running before proceeding
 - Cloning and running the backend server
-    - Clone this [repository](https://github.com/hs-hq/holbertonschool-cinema-guru-API) on your local machine
+    - Clone this [repository](https://github.com/hs-hq/holbertonschool-cinema-guru-API) on the local machine
     - cd into the repository folder and run the following commands:
         ```
         docker-compose build --no-cache --force-rm
         docker-compose up
         ```
-      - After running the above command you should get an output similar to this indicating that the backend and db are running.
+      - After running the above command I should get an output similar to this indicating that the backend and db are running.
 
 
 ## Author
