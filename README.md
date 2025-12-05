@@ -48,4 +48,4 @@ Hello everyone, In this project I will build our pocket movie app in which we wi
 
 
 ## Author
-[Fqnuel PIERRE](https://github.com/fpierr)
+[Fanuel PIERRE](https://github.com/fpierr)
