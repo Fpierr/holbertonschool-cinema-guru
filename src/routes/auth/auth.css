@@ -1,0 +1,145 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -70px;
+  background-color: #222222;
+}
+
+.auth-box {
+  background: white;
+  box-shadow: 0 4px 10px #1C1C1C;
+  width: 450px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+  min-height: 400px;
+}
+
+.auth-tabs {
+  display: flex;
+  justify-content: space-between;
+  background: #E31C25;
+  width: 100%;
+  border: none;
+  padding: 0;
+}
+
+.auth-tabs button {
+  width: 50%;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 20px;
+  text-align: center;
+  outline: none;
+  border-radius: 0;
+  background: #BB000E;
+  margin: 0;
+}
+
+.auth-tabs button.active {
+  background: #E31C25;
+}
+
+.auth-tabs button:focus,
+.auth-tabs button:active {
+  outline: none;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.auth-title {
+  font-size: 19px;
+  padding-top: 20px;
+  color: black;
+}
+
+.input-label {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: black;
+  padding-top: 20px;
+  gap: 8px;
+}
+
+.input-label .input-icon {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.auth-input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #BB000E;
+  background: transparent;
+  outline: none;
+  font-size: 16px;
+  color: black;
+}
+
+.auth-input::placeholder {
+  color: gray;
+}
+
+.auth-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: 140px;
+  height: 40px;
+  padding: 10px 20px;
+  gap: 8px;
+  background: #BB000E;
+  color: white;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: auto;
+  text-align: center;
+}
+
+.auth-button .fa-icon {
+  font-size: 16px;
+  color: white;
+}
+
+.auth-button:hover {
+  background: #E31C25;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.error-container {
+  min-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,137 @@
+body {
+  background-color: #222222;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  margin-top: 70px;
+  padding: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.input-container input {
+  padding: 8px;
+  border: 1px solid #e31c25;
+  background: #222;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+}
+
+.input-container label {
+  font-size: 14px;
+  color: white;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+  padding: 0 5vw;
+  margin-bottom: 50px;
+  max-width: 95vw;
+  overflow: hidden;
+}
+
+.filters {
+  display: flex;
+  gap: 50px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: auto;
+}
+
+.filter-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  width: 100%;
+}
+
+
+.filters select {
+  text-align: center;
+  min-width: 150px;
+}
+
+
+.filters input,
+.filters select {
+  background: #333;
+  border: none;
+  border-bottom: 1px solid #e31c25;
+  color: white;
+  padding: 8px;
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+  border-radius: 0;
+  text-align: start;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  max-width: 500px;
+  padding: 8px 15px;
+  border-radius: 20px;
+  background: #333;
+  transition: background 0.3s ease-in-out;
+}
+
+.search-bar input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-bar.focused {
+  background: white;
+}
+
+.search-bar.focused input {
+  color: black;
+}
+
+.tags-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-start;
+  max-width: 33%;
+  margin-left: auto;
+  list-style: none;
+  padding: 0;
+}
+
+.tag {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 2px solid red;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+.tag.selected {
+  background: red;
+}
